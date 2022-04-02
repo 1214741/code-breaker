@@ -9,7 +9,7 @@ const calc = require("./calculator.js");    //Arrange
 describe("Add operator", () => {
   test("adds 1 + 2 to equal 3", () => {
     let result = calc.add(1, 2);            //Act
-    expect(result).toBe(4);                 //Assert
+    expect(result).toBe(3);                 //Assert
   });
 
   test("adds 4 + 5 to equal 9", () => {
